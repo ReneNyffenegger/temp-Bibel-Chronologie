@@ -1,2 +1,3 @@
 # temp-Bibel-Chronologie
-Temporary Stuff about biblical chronology
+
+Vgl https://github.com/ReneNyffenegger/temp-Bibel-Exodus-Chronologie
