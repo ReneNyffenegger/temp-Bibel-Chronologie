@@ -1,0 +1,9 @@
+#define EVENT(name, mt, mk, lk, text) name [ label = < <table> \
+   <tr><td align="text" colspan="3">text</td></tr>     \
+   <tr><td>mt</td><td>mk</td><td>lk</td></tr>          \
+   </table> \
+> ]
+
+node [shape = plain]
+
+EVENT(Schwiegermutter_Petri_Fieberkrank, 8:14, 1:29, 4:38, Petri Schwiegermutter Fieberkrank)
