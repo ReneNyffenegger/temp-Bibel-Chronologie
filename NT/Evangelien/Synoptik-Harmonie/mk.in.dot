@@ -1,5 +1,0 @@
-digraph mt {
-
-  #include "events.dot"
-
-}
