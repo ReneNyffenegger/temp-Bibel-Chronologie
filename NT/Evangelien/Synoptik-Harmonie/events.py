@@ -13,8 +13,9 @@ class gospelDot:
         '''.format(name, text, mt, mk, lk))
 
     def writeEvents(self):
-        self.event('Schwiegermutter_Petri_Fieberkrank', '8:14', '1:29', '4:38', 'Petri Schwiegermutter Fieberkrank')
-        self.event('Heilung_Aussaetziger'             , '8:02', '1:40', '5:12', 'Heilung eines Aussätzigen'        )
+        self.event('Schwiegermutter_Petri_Fieberkrank',  '8:14', '1:29', '4:38', 'Petri Schwiegermutter Fieberkrank')
+        self.event('Heilung_Aussaetziger'             ,  '8:02', '1:40', '5:12', 'Heilung eines Aussätzigen'        )
+        self.event('Kommt_in_Vaterstadt'              , '13:54', '6:01', '4:16', 'Herr kommt in Vaterstadt: woher diesem diese Weisheit und die Wunderwerke?')
 
     def edge(self, frm, to):
         self.f.write('{} -> {}\n'.format(frm, to))

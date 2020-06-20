@@ -4,6 +4,7 @@ dot = events.startDot('lk')
 
 dot.writeEvents()
 
-dot.edge('Heilung_Aussaetziger', 'Schwiegermutter_Petri_Fieberkrank')
+dot.edge('Kommt_in_Vaterstadt'              , 'Schwiegermutter_Petri_Fieberkrank')
+dot.edge('Schwiegermutter_Petri_Fieberkrank', 'Heilung_Aussaetziger')
 
 dot.end()
